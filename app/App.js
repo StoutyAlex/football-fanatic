@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
+import { hot } from 'react-hot-loader';
 // import './App.css'; // Convert to sass
 
 class App extends Component {
   render() {
     return (
       <div>
-        <h1>Hello, World!</h1>
+        <h1>Hello, World! Football</h1>
       </div>
     );
   }
 }
 
-export default App;
+export default hot(module)(App);
